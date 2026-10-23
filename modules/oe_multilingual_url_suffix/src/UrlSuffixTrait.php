@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Drupal\oe_multilingual_url_suffix;
 
-use Drupal\Component\Utility\UrlHelper;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\oe_multilingual_url_suffix\Event\UrlSuffixesAlterEvent;
 use Drupal\oe_multilingual_url_suffix\Plugin\LanguageNegotiation\LanguageNegotiationUrlSuffix;
