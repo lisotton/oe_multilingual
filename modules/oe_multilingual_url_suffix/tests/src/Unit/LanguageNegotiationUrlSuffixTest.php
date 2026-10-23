@@ -179,6 +179,14 @@ class LanguageNegotiationUrlSuffixTest extends UnitTestCase {
       ],
       'expected_langcode' => NULL,
     ];
+    // Broken link with a scheme delimiter appended to the suffix.
+    $url_suffix_configuration[] = [
+      'suffix' => 'dehttps://',
+      'suffixes' => [
+        'de' => 'de',
+      ],
+      'expected_langcode' => NULL,
+    ];
     return $url_suffix_configuration;
   }
 
